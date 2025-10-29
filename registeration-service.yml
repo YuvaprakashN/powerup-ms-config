@@ -1,2 +1,11 @@
 register:
   welcome-message: "Hello"
+
+spring:
+  datasource:
+    username: ''
+    url: jdbc:h2:mem:regservice
+    driverClassName: org.h2.Driver
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
